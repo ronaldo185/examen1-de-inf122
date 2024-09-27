@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu {
+    display: flex;
+    background-color: rgb(187, 61, 73);
+    padding: 50px;
+    margin: 5px;
+}
+
+
+.slider-container {
+    margin: 5px;
+    display: grid;
+    background-color: rgb(210, 92, 42);
+    height: 100px;   
+}
+
+.cards {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+.card {
+    padding: 50px;
+    background-color: rgb(36, 128, 101);
+    text-align: center;
+}
+
+
+.section_galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 100px;
+    
+}
+
+.imagen {
+    background-color: gray;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    
+}
+
+
+footer {
+    text-align: center;
+    background-color: #0c1563;
+    color: white;
+    padding: 20px;
+    bottom: 100px;
+    width: 100%;
+    
+}
